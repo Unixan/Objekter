@@ -1,0 +1,16 @@
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background: lightgray
+}
+
+
+td {
+    margin: 0px;
+    border: solid lightgray 1px;
+    text-align: center;
+    padding: 5px;
+}
