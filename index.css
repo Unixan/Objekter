@@ -10,7 +10,8 @@ tr:nth-child(odd) {
 
 td {
     margin: 0px;
-    border: solid lightgray 1px;
+    border: solid gray 1px;
     text-align: center;
     padding: 5px;
+    
 }
