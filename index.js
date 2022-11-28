@@ -290,18 +290,19 @@ function addUser() {
         let countryChoices = makeList(countryList)
         view();
         html += /*HTML*/`
+        <h2>Fyll in skjema under og klikk Registrer</h2>
             <table>
                 <tr>
                     <td><label for="nameInput">Navn:</label></td>
-                    <td><input type="text" id="nameInput"></td>
+                    <td><input type="text" id="nameInput" placeholder="Fornavnet ditt..."></td>
                 </tr>
                 <tr>
                     <td><label for="midNameInput">Mellomnavn:</label></td>
-                    <td><input type="text" id="midNameInput"></td>
+                    <td><input type="text" id="midNameInput" placeholder="Hvis du har..."></td>
                 </tr>
                 <tr>
                     <td><label for="surNameInput">Etternavn:</label></td>
-                    <td><input type="text" id="surNameInput"></td>
+                    <td><input type="text" id="surNameInput" placeholder="Etternavnet ditt..."></td>
                 </tr>
                 <tr>
                     <td><label for="sexInput">Kjønn:</label></td>
@@ -317,7 +318,7 @@ function addUser() {
                 </tr>
                 <tr>
                     <td><label for="checkIn">Sjekke inn nå?</label></td>
-                    <td><input type="checkbox" id="checkIn">Sjekke inn</td>
+                    <td><input type="checkbox" id="checkIn">Ja</td>
                 </tr>
             </table>
     `}
